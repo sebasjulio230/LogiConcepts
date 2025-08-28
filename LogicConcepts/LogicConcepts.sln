@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortNumbers", "SortNumbers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsMultipleOfAnother", "IsMultipleOfAnother\IsMultipleOfAnother.csproj", "{DD8B92CF-65AC-43AC-B98D-CDEB7B22B0EC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05", "05", "{768E9FEC-638F-4556-AF2D-D9BF2DE7BA1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
