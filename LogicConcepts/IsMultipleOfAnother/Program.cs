@@ -5,14 +5,15 @@ var options = new List<string> { "s", "n" };
 
 do
 {
-    var number = ConsoleExtension.GetInt("Ingrese número entero: ");
-    if (number % 2 == 0)
+    var a = ConsoleExtension.GetInt("Ingrese primer número : ");
+    var b = ConsoleExtension.GetInt("Ingrese segundo número: ");
+    if (b % a == 0)
     {
-        Console.WriteLine($"El número {number}, es par.");
+        Console.WriteLine($"{a} es múltiplo {b}");
     }
     else
     {
-        Console.WriteLine($"El número {number}, es impar.");
+        Console.WriteLine($"{a} no es múltiplo {b}");
     }
 
     do
@@ -23,4 +24,3 @@ do
 } while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
 
 Console.WriteLine("Game Over.");
-
